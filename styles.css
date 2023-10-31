@@ -1,5 +1,5 @@
 body {
-    background-color: #3c3c3c;
+    background-color: #5a5959;
 }
 
 .box {
@@ -18,7 +18,7 @@ body {
 }
 
 .display {
-    border: 2px solid red;
+    background-color: #434343;
     padding: 12%;
     margin: 4% 4%;
     height: 5%;
@@ -35,33 +35,44 @@ body {
     justify-content: space-around;
 }
 
-.a1{
+.digits{
     padding: 10%;
     background-color: rgb(24, 83, 166);
     border-radius: 10px;
 }
 
-.a2{
+button.digits:hover{
+    padding: 10%; 
+    background-color: rgb(124, 183, 66); 
+    border-radius: 10px; 
+    cursor: pointer;
+}
+
+.operators{
     padding: 10%;
     background-color: rgb(24, 83, 166);
     border-radius: 10px;
 }
 
-.a3{
-    padding: 10%;
+button.operators:hover{
+    padding: 10%; 
+    background-color: rgb(124, 183, 66); 
+    border-radius: 10px; 
+    cursor: pointer;
+}
+
+.clear{
+    padding: 5%;
     background-color: rgb(24, 83, 166);
     border-radius: 10px;
 }
 
-.a4{
-    padding: 10%;
-    background-color: rgb(24, 83, 166);
-    border-radius: 10px;
+button.clear:hover{    
+    padding: 5%; 
+    background-color: rgb(124, 183, 66); 
+    border-radius: 10px; 
+    cursor: pointer;
 }
-
-/*
-    b0
-*/
 
 .b0{
     padding: 10px;
@@ -69,67 +80,11 @@ body {
     justify-content: space-around;
 }
 
-.b1{
-    padding: 10%;
-    background-color: rgb(24, 83, 166);
-    border-radius: 10px;
-}
-
-.b2{
-    padding: 10%;
-    background-color: rgb(24, 83, 166);
-    border-radius: 10px;
-}
-
-.b3{
-    padding: 10%;
-    background-color: rgb(24, 83, 166);
-    border-radius: 10px;
-}
-
-.b4{
-    padding: 10%;
-    background-color: rgb(24, 83, 166);
-    border-radius: 10px;
-}
-
-/*
-    c0
-*/
-
 .c0{
     padding: 10px;
     display: flex;
     justify-content: space-around;
 }
-
-.c1{
-    padding: 10%;
-    background-color: rgb(24, 83, 166);
-    border-radius: 10px;
-}
-
-.c2{
-    padding: 10%;
-    background-color: rgb(24, 83, 166);
-    border-radius: 10px;
-}
-
-.c3{
-    padding: 10%;
-    background-color: rgb(24, 83, 166);
-    border-radius: 10px;
-}
-
-.c4{
-    padding: 10%;
-    background-color: rgb(24, 83, 166);
-    border-radius: 10px;
-}
-
-/*
-    d0
-*/
 
 .d0{
     padding: 10px;
@@ -137,48 +92,8 @@ body {
     justify-content: space-around;
 }
 
-.d1{
-    padding: 10%;
-    background-color: rgb(24, 83, 166);
-    border-radius: 10px;
-}
-
-.d2{
-    padding: 10%;
-    background-color: rgb(24, 83, 166);
-    border-radius: 10px;
-}
-
-.d3{
-    padding: 10%;
-    background-color: rgb(24, 83, 166);
-    border-radius: 10px;
-}
-
-.d4{
-    padding: 10%;
-    background-color: rgb(24, 83, 166);
-    border-radius: 10px;
-}
-
-/*
-    e0
-*/
-
 .e0{
     padding: 10px;
     display: flex;
     justify-content: space-around;
-}
-
-.e1{
-    padding: 5%;
-    background-color: rgb(24, 83, 166);
-    border-radius: 10px;
-}
-
-.e2{
-    padding: 5%;
-    background-color: rgb(24, 83, 166);
-    border-radius: 10px;
 }
