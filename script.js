@@ -1,23 +1,49 @@
+let currentNum = "";
+let previousNum = "";
+let operator = "";
+
+const currentDisplayNumber = document.querySelector("currentNumber");
+const previousDisplayNumber = document.querySelector("previousNumber");
+
+const equal = document.querySelector(".equal");
+const decimal = document.querySelector(".decimal");
+const clear = document.querySelector(".clear");
+const numberButtons = document.querySelectorAll(".number");
+const operators = document.querySelectorAll(".operator");
+
+numberButtons.forEach(button => {
+  button.addEventListener('click', (e) => {
+    handleNumber(e.target.textContent);
+  });
+});
+
+function handleNumber(number){
+  if(currentNum <= 11){
+    currentNum += number;
+    currentDisplayNumber.textContent = currentNum;
+  }
+}
+
+/*
+
 const numberButtons = document.querySelectorAll('[data-number]');
 const operatorButtons = document.querySelectorAll('[data-operator]');
 const display = document.getElementById('display');
 let a = 5;
 
-/*
 numberButtons.forEach((button) =>
   button.addEventListener('click', () => {
-    alert(numberButtons);
+    alert(button);
   })
   
 )
 
 operatorButtons.forEach((button) =>
-  button.addEventListener('click', () => setOperation(button.textContent))
-
+  button.addEventListener('click', () => {
+    alert('aoba');
+    setOperation(button.textContent)})
+    
 )
-*/
-
-numberButtons.add
 
 function showDisplay(){
   const h3 = document.createElement('h3');
@@ -28,3 +54,5 @@ function showDisplay(){
 }
 
 showDisplay();
+
+*/
