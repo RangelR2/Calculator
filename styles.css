@@ -19,7 +19,7 @@ body {
 
 .display {
     background-color: #434343;
-    padding: 12%;
+    padding: 12% 12% 12% 12%;
     margin: 4% 4%;
     height: 5%;
     border-radius: 10px;
