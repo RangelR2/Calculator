@@ -17,12 +17,12 @@ body {
     border-radius: 10px;
 }
 
-.display {
+.output {
     background-color: #434343;
-    padding: 12% 12% 12% 12%;
     margin: 4% 4%;
-    height: 5%;
+    height: 100px;
     border-radius: 10px;
+    justify-content: end;
 }
 
 /*
@@ -35,13 +35,13 @@ body {
     justify-content: space-around;
 }
 
-.digits{
+.number{
     padding: 10%;
     background-color: rgb(24, 83, 166);
     border-radius: 10px;
 }
 
-button.digits:hover{
+button.number:hover{
     padding: 10%; 
     background-color: rgb(124, 183, 66); 
     border-radius: 10px; 
@@ -61,6 +61,32 @@ button.operators:hover{
     cursor: pointer;
 }
 
+.decimal{
+    padding: 10%;
+    background-color: rgb(24, 83, 166);
+    border-radius: 10px;
+}
+
+button.decimal:hover{
+    padding: 10%; 
+    background-color: rgb(124, 183, 66); 
+    border-radius: 10px; 
+    cursor: pointer;
+}
+
+.equal{
+    padding: 10%;
+    background-color: rgb(24, 83, 166);
+    border-radius: 10px;
+}
+
+button.equal:hover{
+    padding: 10%; 
+    background-color: rgb(124, 183, 66); 
+    border-radius: 10px; 
+    cursor: pointer;
+}
+
 .clear{
     padding: 5%;
     background-color: rgb(24, 83, 166);
@@ -68,6 +94,31 @@ button.operators:hover{
 }
 
 button.clear:hover{    
+    padding: 5%; 
+    background-color: rgb(124, 183, 66); 
+    border-radius: 10px; 
+    cursor: pointer;
+}
+
+.previousNumber{
+    text-align: end;
+    padding-right: 3%;
+    padding-top: 3%;
+}
+
+.currrentNumber{
+    text-align: end;
+    padding-right: 3%;
+    font-size: 35px;
+}
+
+.delete{
+    padding: 5%;
+    background-color: rgb(24, 83, 166);
+    border-radius: 10px;
+}
+
+button.delete:hover{    
     padding: 5%; 
     background-color: rgb(124, 183, 66); 
     border-radius: 10px; 
